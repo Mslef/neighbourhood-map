@@ -7,7 +7,7 @@ function initialize() {
 
     var map = new google.maps.Map($('#map-canvas')[0], mapOptions);
 
-    var craftLatLng = new google.maps.LatLng(53.5433839,-113.5018665);
+    var craftLatLng = new google.maps.LatLng(53.542050,-113.491300);
 
     var marker = new google.maps.Marker({
         position: craftLatLng,
