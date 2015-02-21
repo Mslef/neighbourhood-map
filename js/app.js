@@ -11,6 +11,10 @@ function initialize() {
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
+    var searchBox = (document.getElementById('search-box'));
+
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(searchBox);
+
     infoWindow = new google.maps.InfoWindow();
     service = new google.maps.places.PlacesService(map);
     google.maps.event.addListenerOnce(map, 'bounds_changed', performSearch);
