@@ -12,7 +12,7 @@ var places = [
     {
         title: 'Winspear Center',
         id: 'ChIJVdAXVUQioFMRF0G6jDBCG7o',
-        location: {lat:53.540898, lng: -113.488115}
+        location: {lat:53.543900, lng: -113.488215}
     },
     {
         title: 'Alberta Art Gallery',
