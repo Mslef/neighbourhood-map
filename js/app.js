@@ -12,8 +12,10 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     var searchBox = (document.getElementById('search-box'));
+    var markerList = document.getElementById('marker-list');
 
-    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(searchBox);
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(searchBox);
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(markerList);
 
     infoWindow = new google.maps.InfoWindow();
     service = new google.maps.places.PlacesService(map);
