@@ -20,3 +20,9 @@ http://api.jquery.com/jquery.ajax/#jqXHR
 
 http://opensoul.org/2011/06/23/live-search-with-knockoutjs/
 http://stackoverflow.com/questions/18953011/how-to-make-a-div-vertically-scrollable
+
+TODO
+----
+- start using knockout to connect the model to the view
+- build list elements that contain place/marker information
+- put list elements in list
